@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(133, 82, 34);
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.header>button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(231, 114, 114);
+}
+.container {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .maindiv {
+    width: 40%;
+    display: grid;
+    /* border: 2px solid green; */
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+   
+  }
+  #dishimg {
+    width: 100%;
+    border-radius: 9px;
+  }
+  .dishdiv{
+    padding-bottom: 10px;
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(245, 174, 153);
+  }
+  .dishdiv>p{
+    font-size: x-large;
+  }
+  .dishdiv>button{
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+  }
